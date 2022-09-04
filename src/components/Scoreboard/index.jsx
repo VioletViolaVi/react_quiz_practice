@@ -1,10 +1,12 @@
 import React from "react";
 
-function Scoreboard() {
+function Scoreboard({ arrLength, score }) {
   return (
     <>
       <h1>Scoreboard</h1>
-      <p>You scored 1/5</p>
+      <p>
+        You scored {score}/{arrLength}
+      </p>
     </>
   );
 }
