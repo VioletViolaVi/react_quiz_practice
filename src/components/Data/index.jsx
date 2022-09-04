@@ -48,16 +48,6 @@ const questionArr = [
       { id: 3, option: "22", isRight: false },
       { id: 4, option: "20", isRight: false }
     ]
-  },
-  {
-    id: 6,
-    question: "Which sign of the zodiac comes between Virgo and Scorpio?",
-    optionsArr: [
-      { id: 1, option: "Gemini", isRight: false },
-      { id: 2, option: "Taurus", isRight: false },
-      { id: 3, option: "Libra", isRight: true },
-      { id: 4, option: "Capricorn", isRight: false }
-    ]
   }
 ];
 
