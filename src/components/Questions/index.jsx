@@ -1,6 +1,19 @@
 import React from "react";
 
 function Questions({ increment, handleFunc, arrOfQuestions, arrLength }) {
+
+
+  // const scoreKeeping = (isRightParam) => {
+  //   // if (isRightParam === true) {
+  //   //   let count = 0;
+  //   //   console.log("isRightParam: ", isRightParam);
+  //   //   console.log("count: ", count ++);
+  //   //   // alert("CORRECT")
+  //   // }
+
+  //   return handleFunc;
+  // };
+
   return (
     <>
       <h1>
@@ -10,7 +23,10 @@ function Questions({ increment, handleFunc, arrOfQuestions, arrLength }) {
 
       {arrOfQuestions[increment].optionsArr.map((singleOptionObj) => {
         return (
-          <button onClick={handleFunc} key={singleOptionObj.id}>
+          <button
+            onClick={() => handleFunc=singleOptionObj.isRight} // needs fixing
+            key={singleOptionObj.id}
+          >
             {singleOptionObj.option}
           </button>
         );
