@@ -1,10 +1,10 @@
 import React from "react";
-import QuizGame from "../../components/QuizGame";
+import QuizGameHome from "../../components/QuizGameHome";
 
 function Home() {
   return (
     <>
-      <QuizGame />
+      <QuizGameHome />
     </>
   );
 }
