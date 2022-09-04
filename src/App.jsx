@@ -1,14 +1,13 @@
-import React from 'react';
-import './App.css'
-import Form from './components/Form/Form';
+import React from "react";
+
+import "./App.css";
 
 function App() {
-
   return (
     <>
-      <Form />
+      <h1>Hi Planets</h1>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
