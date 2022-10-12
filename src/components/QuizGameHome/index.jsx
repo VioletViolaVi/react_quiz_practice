@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 
 import Questions from "../Questions";
 import Scoreboard from "../Scoreboard";
@@ -16,7 +16,6 @@ function QuizGameHome() {
 
   const handleMoveToNextQuestion = (isRightParam) => {
     console.log("isRightParam: ", isRightParam);
-
 
     /* keeps track of user's score */
     if (isRightParam === true) {
